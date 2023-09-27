@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Portifólio JS</title>
+</head>
+<body>
+    <h1>Portifólio Javascript</h1>
+    
+    <div class="corpo">
+    <h2 class="titles"><a href="https://www.w3schools.com/js/default.asp">JS Home</a></h2>
+        <button type="button" onclick="document.getElementById('date-hour').innerHTML = Date()">Clique em mim para mostrar a data e hora.</button>
+        <p id="date-hour"></p>
+    </div>
+    
+    <div class="corpo">
+    <h2 class="titles"><a href="https://www.w3schools.com/js/js_intro.asp">JS Introduction</a></h2>
+        <p id="alt">Javascript consegue alterar o conteúdo HTML</p>
+        <button type="button" onclick="document.getElementById('alt').innerHTML = 'Alteração feita com Javascript'">Clique em mim!</button>
+        <form><input type="image" src="/reload-icon.svg" alt="Recarregar página"></form>
+
+        <p>Javascript também consegue modificar valores dos atributos HTML</p>
+        <button type="button" onclick="document.getElementById('img').src='switch-off.svg'">Desligar o botão</button>
+        <img src="switch-off.svg" alt="" id="img">
+        <button type="button" onclick="document.getElementById('img').src='switch-on.svg'">Ligar o botão</button>
+
+        <p id="text-transf">Javascript também consegue mudar HTML Styles (CSS)</p>
+        <button type="button" onclick="document.getElementById('text-transf').style.fontSize='35px'">Clique me mim!</button>
+        <form><input type="image" src="/reload-icon.svg" alt="Recarregar página"></form>
+
+        <p id="text-hide">Javascript também consegue esconder elementos HTML</p>
+        <button type="button" onclick="document.getElementById('text-hide').style.display='none'">Clique em mim!</button>
+        <form><input type="image" src="/reload-icon.svg" alt="Recarregar página"></form>
+
+        <p>Javascript também consegue mostrar elemntos HTML escondidos</p>
+        <p id="text-hidden" style="display: none;">Supresa!!!</p>
+        <button type="button" onclick="document.getElementById('text-hidden').style.display='block'">Clique em mim!</button>
+        <form><input type="image" src="/reload-icon.svg" alt="Recarregar página"></form>
+    </div>
+    
+    <div class="corpo">
+        <h2 class="titles"><a href="https://www.w3schools.com/js/js_whereto.asp">JS Where To</a></h2>
+        <p>Em HTML, códigos JavaScript são inseridos entre as tags &ltscript&gt &lt/script&gt</p>
+        <p>JavaScript é um bloco de código JavaScript, que pode ser executado quando "chamado" por function.</p>
+        <p>Uma função pode ser chamada quando um evento ocorre.</p>
+    </div>
+</body>
+</html>
